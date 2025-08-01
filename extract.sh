@@ -3,6 +3,13 @@
 mkdir -p pst_files
 mkdir -p output_emails
 
+for dir in output_emails/*; do
+    if [ -d "$dir" ]; then
+        echo "removing $dir ..."
+        rm -rf $dir
+    fi
+done
+
 for k in pst_files/*.pst; do
     file_name="$(basename $k)"
     dir_name="${file_name%.pst}"
