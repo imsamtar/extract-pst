@@ -1,0 +1,5 @@
+/output_emails/*
+!/output_emails/.gitkeep
+/pst_files/*
+!/pst_files/.gitkeep
+*.log

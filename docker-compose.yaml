@@ -1,0 +1,10 @@
+---
+services:
+  pst:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output_emails:/app/output_emails
+    stdin_open: true
+    tty: true
