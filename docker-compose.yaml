@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
+      - ./pst_files:/app/pst_files
       - ./output_emails:/app/output_emails
     stdin_open: true
     tty: true

@@ -3,3 +3,4 @@
 /pst_files/*
 !/pst_files/.gitkeep
 *.log
+__pycache__/

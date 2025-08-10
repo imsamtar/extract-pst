@@ -1,0 +1,9 @@
+.git
+.gitignore
+LICENSE
+README.md
+docker-compose.yaml
+Dockerfile
+output_emails
+pst_files
+*.log
